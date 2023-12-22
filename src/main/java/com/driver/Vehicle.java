@@ -12,8 +12,8 @@ public class Vehicle {
             this.currentDirection  = 0;
     }
 
-
     public int getCurrentDirection() {
+
         return currentDirection;
     }
 
@@ -53,5 +53,9 @@ public class Vehicle {
 
     public void setCurrentDirection(int currentDirection) {
         this.currentDirection = currentDirection;
+    }
+
+    public void changeSpeed(int speed){
+        this.currentSpeed += speed;
     }
 }
