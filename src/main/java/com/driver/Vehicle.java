@@ -55,7 +55,7 @@ public class Vehicle {
         this.currentDirection = currentDirection;
     }
 
-    public void changeSpeed(int speed){
+    public void changeSpeedOfVehicle(int speed){
         this.currentSpeed += speed;
     }
 }
